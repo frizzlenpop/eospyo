@@ -238,7 +238,7 @@ class WaxTestnet(Net):
 
 
 class WaxMainnet(Net):
-    host: pydantic.HttpUrl = "https://facings.waxpub.net"
+    host: pydantic.HttpUrl = "https://wax.greymass.com/"
 
 
 class EosMainnet(Net):
